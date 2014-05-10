@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="map"></div>
+    <script>
+        var googleLayer = new L.Google('ROADMAP');
+        var map = new L.map('map', {center: new L.LatLng(22, 78), zoom: 5}); 
+        map.addLayer(googleLayer);
+    </script>
+{% endblock %}
