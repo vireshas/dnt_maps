@@ -1,0 +1,21 @@
+.leaflet-map-pane, .leaflet-map-pane 
+{
+        z-index: 2 !important;
+}
+.leaflet-google-layer
+{
+        z-index: 1 !important;
+}
+.bar
+{
+        z-index: 5 !important;
+}
+#map 
+{
+    top: 3em;
+    min-width: 450px;
+    min-height: 750px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc; 
+}
